@@ -13,12 +13,52 @@
 .modal-background{
     background-color: black;
 } */
+
 body {
+    background-color: black;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.homepage {
     background: url('../images/logo/Hysterix.jpg');
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    height: 100vh;  
+    /* height: 100vh;   */
     background-color: black;
+}
+/* .music {
+    background-color: black;
+}
+.hysterix {
+    background-color: black;
+}
+.aftermath {
+    background-color: black;
+}
+.gallery {
+    background-color: black;
+}
+.events {
+    background-color: black;
+} */
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    margin-top: auto;
+    border-top: 5px;
+    border-bottom: 5px;
+    border-color: white;
+}
+
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: white;
 }
